@@ -1,0 +1,19 @@
+package main;
+
+import java.util.ArrayList;
+
+import iterator.Iterator;
+import model.UserList;
+
+public class Main {
+
+	public Main() {
+		UserList list = new UserList();
+		Iterator myIterator = list.getNames();
+		
+	}
+	
+	public static void main(String[] args) {
+		new Main();
+	}
+}

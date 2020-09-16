@@ -1,0 +1,19 @@
+package factories;
+
+import models.Dumpling;
+
+import models.JakartaChickenDumpling;
+
+public class ChickenDumplingStore extends DumplingStore{
+
+	public ChickenDumplingStore() {
+	}
+
+	@Override
+	protected Dumpling createDumpling() {		
+		
+		return new JakartaChickenDumpling();
+		
+	}
+
+}

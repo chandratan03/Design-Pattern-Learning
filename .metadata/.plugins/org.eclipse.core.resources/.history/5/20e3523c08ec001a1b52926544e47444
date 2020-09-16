@@ -1,0 +1,12 @@
+package factories;
+
+import models.Dumpling;
+
+public extends DumplingFactory {
+	
+	public Dumpling orderDumpling(String name) {
+		sysout
+	}
+	
+	protected Dumpling createDumpling(String name);
+}

@@ -1,0 +1,29 @@
+package model;
+
+import java.util.ArrayList;
+
+import iterator.Iterator;
+import iterator.UsersIterator;
+
+public class UserList implements ListMenu{
+	private ArrayList<String> names;
+	
+	public UserList() {
+		names = new ArrayList<>();
+	
+		names.add("haha");
+		names.add("hehehe");
+		names.add("husususu");
+		names.add("hesesese");
+		
+	}
+	
+	@Override
+	public Iterator getIterator() {
+		return new UsersIterator(names);
+	}
+	
+	
+	
+
+}

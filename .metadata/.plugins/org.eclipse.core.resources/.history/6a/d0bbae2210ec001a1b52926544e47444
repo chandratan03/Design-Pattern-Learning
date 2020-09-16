@@ -1,0 +1,16 @@
+package factories;
+
+import models.Dumpling;
+
+public class BeefDumpling extends DumplingStore{
+
+	public BeefDumpling() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	protected Dumpling createDumpling() {
+		return new BeefDumpling();
+	}
+
+}

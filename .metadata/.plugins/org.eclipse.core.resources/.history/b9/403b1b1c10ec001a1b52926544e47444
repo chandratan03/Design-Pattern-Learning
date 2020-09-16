@@ -1,0 +1,9 @@
+package factories;
+
+public class BeefDumpling extends ChickenDumplingStore{
+
+	public BeefDumpling() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

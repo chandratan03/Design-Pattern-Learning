@@ -1,0 +1,30 @@
+package model;
+
+import java.util.ArrayList;
+
+import iterator.Iterator;
+
+public class UserList{
+	private ArrayList<String> names;
+	private Integer position;
+	
+	public UserList() {
+		names = new ArrayList<>();
+		position--;
+		names.add("haha");
+		names.add("hehehe");
+		names.add("husususu");
+		names.add("hesesese");
+		
+	}
+	public ArrayList<String> getNames() {
+		return names;
+	}
+	public void setNames(ArrayList<String> names) {
+		this.names = names;
+	}
+	
+	
+	
+
+}

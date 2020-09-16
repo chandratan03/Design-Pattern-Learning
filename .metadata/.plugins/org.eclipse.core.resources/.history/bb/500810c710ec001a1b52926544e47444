@@ -1,0 +1,17 @@
+package factories;
+
+import models.BeefDumpling;
+import models.Dumpling;
+
+public class BeefDumplingStore implements DumplingStore{
+
+	public BeefDumplingStore() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public Dumpling createDumpling() {
+		return new BeefDumpling();
+	}
+
+}

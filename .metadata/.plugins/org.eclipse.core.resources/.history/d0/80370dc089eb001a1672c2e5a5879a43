@@ -1,0 +1,9 @@
+package models;
+
+public abstract class Dumpling {
+	String materials;
+	String name;
+	public Dumpling() {
+	}
+
+}

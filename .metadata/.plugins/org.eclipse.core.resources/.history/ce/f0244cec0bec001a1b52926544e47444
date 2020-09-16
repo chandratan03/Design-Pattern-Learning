@@ -1,0 +1,9 @@
+package models;
+
+public class BogorBeefDumpling {
+
+	public BogorBeefDumpling() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,10 @@
+package models;
+
+public class JakartaChickenDumpling {
+
+	public JakartaChickenDumpling() {
+		material = "Chicken Meat";
+		
+	}
+
+}

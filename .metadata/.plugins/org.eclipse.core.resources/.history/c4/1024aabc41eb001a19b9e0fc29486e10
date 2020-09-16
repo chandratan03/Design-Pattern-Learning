@@ -1,0 +1,18 @@
+package main;
+
+import models.Cat;
+import models.CatFoo;
+
+public class Main {
+
+	public Main() {
+		Cat cat = new CatFoo();
+		Dog dog = new DogFoo();
+		
+	}
+	
+	public static void main(String[] args) {
+		new Main();
+	}
+
+}

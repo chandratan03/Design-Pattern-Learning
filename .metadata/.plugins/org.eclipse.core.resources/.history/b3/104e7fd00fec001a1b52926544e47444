@@ -1,0 +1,14 @@
+package factories;
+
+import models.Dumpling;
+
+
+public abstract class DumplingStore{
+
+	public DumplingStore() {
+		
+	}
+
+	protected abstract Dumpling createDumpling() ;
+
+}

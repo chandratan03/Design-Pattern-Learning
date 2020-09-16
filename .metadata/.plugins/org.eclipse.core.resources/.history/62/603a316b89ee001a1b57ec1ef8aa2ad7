@@ -1,0 +1,35 @@
+package states;
+
+import model.GumballMachine;
+
+public class HasQuarterState implements State{
+	GumballMachine machine;
+	public HasQuarterState(GumballMachine machine) {
+		this.machine = machine;
+	}
+
+	@Override
+	public void insertQuarter() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void ejectQuarter() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void turnCrack() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void dispense() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

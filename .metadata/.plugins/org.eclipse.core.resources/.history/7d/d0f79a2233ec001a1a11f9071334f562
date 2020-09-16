@@ -1,0 +1,9 @@
+package algorithms;
+
+public abstract class CaffeineBeverage {
+
+	public CaffeineBeverage() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

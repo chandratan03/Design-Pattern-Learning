@@ -1,0 +1,5 @@
+package model;
+
+public interface ListMenu {
+	public abstract Object getIterator();
+}

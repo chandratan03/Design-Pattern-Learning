@@ -1,0 +1,15 @@
+package main;
+
+import models.CatFoo;
+
+public class Main {
+
+	public Main() {
+		Cat cat = new CatFoo();
+	}
+	
+	public static void main(String[] args) {
+		new Main();
+	}
+
+}

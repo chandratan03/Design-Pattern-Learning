@@ -1,0 +1,22 @@
+package iterator;
+
+public class UsersIterator implements Iterator{
+	@Override
+	public boolean hasNext() {
+		if(names.size()-1 == position) {
+			return false;
+		}
+		return true;
+	}
+	@Override
+	public Object next() {
+		if(hasNext()) {
+			position++;
+			return names.get(position);
+		}
+		return null;
+	}
+
+	
+
+}

@@ -1,0 +1,14 @@
+package models;
+
+public class BeefDumpling extends Dumpling{
+
+	public BeefDumpling(String materials, String name) {
+		super(materials, name);
+		// TODO Auto-generated constructor stub
+	}
+
+	
+
+	
+
+}

@@ -1,0 +1,12 @@
+package factories;
+
+import models.Dumpling;
+
+public abstract class DumplingFactory {
+	
+	public void orderDumpling(String name) {
+		System.out.println("");
+	}
+	
+	protected abstract Dumpling createDumpling(String name);
+}

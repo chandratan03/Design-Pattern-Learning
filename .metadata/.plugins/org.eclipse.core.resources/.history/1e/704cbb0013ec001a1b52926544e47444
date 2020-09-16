@@ -1,0 +1,9 @@
+package models;
+
+public class BeefDumpling extends Dumpling{
+
+	public BeefDumpling(String materials, String name, Integer price) {
+		super(materials, name, price);
+	}
+
+}

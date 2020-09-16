@@ -1,0 +1,9 @@
+package models;
+
+public class Dumpling {
+
+	public Dumpling() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

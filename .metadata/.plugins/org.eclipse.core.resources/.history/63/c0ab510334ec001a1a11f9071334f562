@@ -1,0 +1,19 @@
+package algorithms;
+
+public class CoffeBeverageWithHook extends CaffeineBeverage{
+
+	public CoffeBeverageWithHook() {
+		
+	}
+
+	@Override
+	public void brew() {
+		System.out.println("Brewing coffee");
+	}
+
+	@Override
+	public void addCondiments() {
+		System.out.println("Add Milk");
+	}
+
+}

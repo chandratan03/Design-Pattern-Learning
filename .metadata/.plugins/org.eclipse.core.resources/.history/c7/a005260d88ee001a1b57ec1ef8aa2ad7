@@ -1,0 +1,13 @@
+package states;
+
+import states.State;
+
+public class GumballMachine {
+	
+	
+	State state;
+	public GumballMachine() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

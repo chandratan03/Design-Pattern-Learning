@@ -1,0 +1,32 @@
+package algorithms;
+
+public abstract class CaffeineBeverage {
+
+	
+	public final void prepareBeverage() {
+		boil();
+		brew();
+		pourInCup();
+		// hook could be any where part of the algorithm, could be at the first or anywhere you like
+		if(customerWantsCondiment()) { 
+			addCondiments();
+		}
+	}
+
+	public void boil() {
+		System.out.println("Boiling Water");
+	}
+	
+	public abstract void brew();
+	
+	public void pourInCup() {
+		System.out.println("Pouring water into cup");
+	}
+	
+	// this is a hook, is an optional the subclass wants to override or not
+	public boolean customerWantsCondiment() {
+		return true;
+	}
+
+	public abstract void addCondiments();
+}

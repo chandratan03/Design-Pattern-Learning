@@ -1,0 +1,13 @@
+package facade;
+
+import components.Light;
+import components.Speaker;
+
+public class HomeFacade {
+	public Light light;
+	public Speaker speaker;
+	public Tv tv;
+	public HomeFacade() {
+	}
+
+}

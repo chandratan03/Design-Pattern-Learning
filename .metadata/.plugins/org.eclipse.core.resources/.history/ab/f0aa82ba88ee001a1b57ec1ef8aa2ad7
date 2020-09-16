@@ -1,0 +1,15 @@
+package model;
+
+import states.State;
+
+public class GumballMachine {
+	private State hasQuarter;
+	private State noQuarter;
+	private State soldState;
+	
+	State state;
+	public GumballMachine() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

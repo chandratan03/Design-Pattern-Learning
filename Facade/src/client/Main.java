@@ -1,0 +1,18 @@
+package client;
+
+import components.Light;
+import components.Speaker;
+import components.Tv;
+import facade.HomeFacade;
+
+public class Main {
+
+	public Main() {
+		HomeFacade facade = new HomeFacade(new Light(), new Speaker(), new Tv());
+		facade.turnOffAll();
+	}
+	
+	public static void main(String[] args) {
+		new Main();
+	}
+}

@@ -1,0 +1,15 @@
+package adapter;
+
+import models.Dog;
+
+public class CatAdapter implements Dog{
+
+	public CatAdapter(Cat cat) {
+	}
+
+	@Override
+	public void scream() {
+		
+	}
+
+}

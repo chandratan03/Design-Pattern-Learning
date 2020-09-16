@@ -1,0 +1,9 @@
+npackage states;
+
+public class SoldOutState {
+
+	public SoldOutState() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

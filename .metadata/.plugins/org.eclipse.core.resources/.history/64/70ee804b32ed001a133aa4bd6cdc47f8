@@ -1,0 +1,37 @@
+package model;
+
+import java.util.ArrayList;
+
+import iterator.Iterator;
+
+public class UserList implements Iterator{
+	private ArrayList<String> names;
+	private Integer position;
+	
+	public UserList() {
+		names = new ArrayList<>();
+		position=0;
+		names.add("haha");
+		names.add("hehehe");
+		names.add("husususu");
+		names.add("hesesese");
+	}
+	public ArrayList<String> getNames() {
+		return names;
+	}
+	public void setNames(ArrayList<String> names) {
+		this.names = names;
+	}
+	@Override
+	public boolean hasNext() {
+		return ;
+	}
+	@Override
+	public Object next() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+}

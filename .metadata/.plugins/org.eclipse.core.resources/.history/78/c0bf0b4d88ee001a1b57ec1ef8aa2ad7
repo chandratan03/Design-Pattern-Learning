@@ -1,0 +1,28 @@
+package states;
+
+public class NoQuarterState implements State{
+
+	public NoQuarterState() {
+	}
+
+	@Override
+	public void insertQuarter() {
+		System.out.println("Inserted quarted");
+	}
+
+	@Override
+	public void ejectQuarter() {
+		System.out.println("There's no quarter");
+	}
+
+	@Override
+	public void turnCrack() {
+		System.out.println("There's no quarter");
+	}
+
+	@Override
+	public void dispense() {
+		System.out.println("There's no quarter");
+	}
+
+}

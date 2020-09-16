@@ -1,0 +1,12 @@
+package models;
+
+public class JakartaBeefDumpling extends Dumpling{
+
+	public JakartaBeefDumpling() {
+		materials = "Jakarta Best Beff";
+		name = "Jakarta Beef Dumpling";
+	}
+
+	
+
+}

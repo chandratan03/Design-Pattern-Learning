@@ -1,0 +1,9 @@
+package facade;
+
+public class facade {
+
+	public facade() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,19 @@
+package factories;
+
+import models.Dumpling;
+import models.BeefDumpling;
+import models.ChickenDumpling;
+
+public class ChickenDumplingStore extends DumplingStore{
+
+	public ChickenDumplingStore() {
+	}
+
+	@Override
+	protected Dumpling createDumpling() {		
+		String materials = "Chicken meat";
+		String name = "Chicken dumpling";
+		return new ChickenDumpling(materials, name);
+	}
+
+}

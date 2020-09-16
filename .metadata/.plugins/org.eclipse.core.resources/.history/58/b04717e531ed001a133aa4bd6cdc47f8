@@ -1,0 +1,9 @@
+package main;
+
+public class ArrayObjects {
+
+	public ArrayObjects() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

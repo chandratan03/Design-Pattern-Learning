@@ -1,0 +1,36 @@
+package states;
+
+import model.GumballMachine;
+
+public class SoldState implements State{
+	GumballMachine machine;
+	public SoldState(GumballMachine machine) {
+		this.machine = machine;
+	}
+
+	@Override
+	public void insertQuarter() {
+		System.out.println("Giving you a gumball");
+		System.out.println("Thank you");
+		machine.setState(machine.getNoQuarter());
+	}
+
+	@Override
+	public void ejectQuarter() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void turnCrack() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void dispense() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

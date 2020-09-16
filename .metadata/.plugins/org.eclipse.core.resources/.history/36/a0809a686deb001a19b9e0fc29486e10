@@ -1,0 +1,15 @@
+package components;
+
+public class Tv {
+
+	public Tv() {
+		// TODO Auto-generated constructor stub
+	}
+	public void off() {
+		
+	}
+	public void on() {
+		
+	}
+
+}

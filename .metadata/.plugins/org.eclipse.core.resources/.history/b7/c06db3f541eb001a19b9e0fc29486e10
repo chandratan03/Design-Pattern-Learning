@@ -1,0 +1,21 @@
+package main;
+
+import models.Cat;
+import models.CatFoo;
+import models.Dog;
+import models.DogFoo;
+
+public class Main {
+
+	public Main() {
+		Dog dog = new DogFoo();
+		
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		new Main();
+	}
+
+}

@@ -1,0 +1,9 @@
+package algorithms;
+
+public class CoffeBeverageWithHook {
+
+	public CoffeBeverageWithHook() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

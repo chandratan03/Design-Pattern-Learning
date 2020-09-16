@@ -1,0 +1,15 @@
+package main;
+
+import java.util.ArrayList;
+
+public class Main {
+
+	public Main() {
+		ArrayList<String> names = new ArrayList<>();
+	
+	}
+	
+	public static void main(String[] args) {
+		new Main();
+	}
+}

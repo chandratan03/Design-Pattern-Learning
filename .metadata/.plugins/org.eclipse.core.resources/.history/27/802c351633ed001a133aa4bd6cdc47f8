@@ -1,0 +1,26 @@
+package main;
+
+import java.util.ArrayList;
+
+import iterator.Iterator;
+import model.UserList;
+
+public class Main {
+
+	public Main() {
+		UserList list = new UserList();
+		Iterator myIterator = list.getIterator();
+		
+		
+	}
+	
+	public void printAll(Iterator iterator) {
+		while(iterator.hasNext()) {
+			System.out.println(iterator.next());
+		}
+	}
+	
+	public static void main(String[] args) {
+		new Main();
+	}
+}

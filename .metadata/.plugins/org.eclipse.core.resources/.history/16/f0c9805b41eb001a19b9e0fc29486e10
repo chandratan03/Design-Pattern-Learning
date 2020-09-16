@@ -1,0 +1,9 @@
+package models;
+
+public class DogFoo {
+
+	public DogFoo() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,20 @@
+package algorithms;
+
+public class CoffeBeverageWithHook extends CaffeineBeverage{
+
+	public CoffeBeverageWithHook() {
+	}
+
+	@Override
+	public void brew() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addCondiments() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

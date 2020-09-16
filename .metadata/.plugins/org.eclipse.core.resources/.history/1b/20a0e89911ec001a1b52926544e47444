@@ -1,0 +1,19 @@
+package factories;
+
+import models.BeefDumpling;
+import models.Dumpling;
+
+public class BeefDumplingStore extends DumplingStore{
+
+	public BeefDumplingStore() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	protected Dumpling createDumpling() {
+		String materials = "Chicken meat";
+		String name = "Chicken dumpling";
+		return new BeefDumpling(materials, name);
+	}
+
+}

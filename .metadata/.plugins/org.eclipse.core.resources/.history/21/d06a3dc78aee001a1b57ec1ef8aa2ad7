@@ -1,0 +1,12 @@
+package main;
+
+import model.GumballMachine;
+
+public class Main {
+
+	public Main() {
+		GumballMachine machine =new GumballMachine();
+		
+	}
+
+}

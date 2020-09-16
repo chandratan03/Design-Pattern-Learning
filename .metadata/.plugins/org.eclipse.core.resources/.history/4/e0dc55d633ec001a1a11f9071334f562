@@ -1,0 +1,10 @@
+package algorithms;
+
+public class TeaBeverage extends CaffeineBeverage
+{
+
+	public TeaBeverage() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

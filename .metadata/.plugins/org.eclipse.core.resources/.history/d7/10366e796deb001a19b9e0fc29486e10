@@ -1,0 +1,15 @@
+package components;
+
+public class Speaker {
+
+	public Speaker() {
+		// TODO Auto-generated constructor stub
+	}
+	public void off() {
+		
+	}
+	public void on() {
+		
+	}
+
+}

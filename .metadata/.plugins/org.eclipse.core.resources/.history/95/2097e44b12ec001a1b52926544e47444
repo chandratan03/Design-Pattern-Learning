@@ -1,0 +1,37 @@
+package models;
+
+public abstract class Dumpling {
+	private String materials;
+	private String name;
+	
+	
+	
+	public Dumpling(String materials, String name) {
+		this.materials = materials;
+		this.name = name;
+	}
+
+	public void makeDumpling() {
+		System.out.println(name+" is made by "+ materials);
+	}
+
+	public String getMaterials() {
+		return materials;
+	}
+
+	public void setMaterials(String materials) {
+		this.materials = materials;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	} 
+	
+	
+	
+	
+}

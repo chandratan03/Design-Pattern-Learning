@@ -1,0 +1,9 @@
+package factories;
+
+public class BogorDumplingStore extends DumplingFactory{
+
+	public BogorDumplingStore() {
+		
+	}
+
+}

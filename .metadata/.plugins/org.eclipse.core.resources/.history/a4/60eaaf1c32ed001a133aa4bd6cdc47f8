@@ -1,0 +1,19 @@
+package main;
+
+import java.util.ArrayList;
+
+public class Main {
+
+	public Main() {
+		ArrayList<String> names = new ArrayList<>();
+		names.add("haha");
+		names.add("hehehe");
+		names.add("husususu");
+		names.add("hesesese");
+		
+	}
+	
+	public static void main(String[] args) {
+		new Main();
+	}
+}

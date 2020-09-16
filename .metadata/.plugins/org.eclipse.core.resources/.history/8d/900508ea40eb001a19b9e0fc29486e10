@@ -1,0 +1,6 @@
+package models;
+
+public interface Do {
+	public abstract void gobble();
+	public abstract void fly();
+}

@@ -1,0 +1,12 @@
+package models;
+
+public class DogFoo implements Dog{
+
+
+	@Override
+	public void scream() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

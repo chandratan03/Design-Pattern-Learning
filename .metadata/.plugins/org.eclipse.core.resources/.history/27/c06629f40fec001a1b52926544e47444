@@ -1,0 +1,21 @@
+package factories;
+
+import models.Dumpling;
+
+import models.JakartaChickenDumpling;
+
+public class ChickenDumplingStore extends DumplingStore{
+
+	public ChickenDumplingStore() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	protected Dumpling createDumpling() {		
+		// Ada beberapa attribute .. jika dibutuhkan chicken dumpling
+		
+		return new JakartaChickenDumpling();
+		
+	}
+
+}

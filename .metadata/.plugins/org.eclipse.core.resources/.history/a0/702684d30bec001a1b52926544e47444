@@ -1,0 +1,16 @@
+package factories;
+
+import models.Dumpling;
+
+public class BogorDumplingStore extends DumplingFactory{
+
+	public BogorDumplingStore() {
+		
+	}
+
+	@Override
+	protected Dumpling createDumpling(String name) {
+		return new BogorDumplingStore();
+	}
+
+}

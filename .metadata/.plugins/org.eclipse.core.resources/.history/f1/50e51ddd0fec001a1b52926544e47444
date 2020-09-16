@@ -1,0 +1,16 @@
+package factories;
+
+import models.Dumpling;
+
+
+public abstract class DumplingStore{
+
+	public DumplingStore() {
+		
+	}
+	public void orderDumpling() {
+		System.out.println("Creating dumpling");
+	}
+	protected abstract Dumpling createDumpling() ;
+
+}

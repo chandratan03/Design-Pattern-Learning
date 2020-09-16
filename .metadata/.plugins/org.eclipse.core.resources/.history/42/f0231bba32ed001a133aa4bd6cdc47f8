@@ -1,0 +1,9 @@
+package iterator;
+
+public class UsersIterator {
+
+	public UsersIterator() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

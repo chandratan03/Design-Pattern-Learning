@@ -1,0 +1,12 @@
+package models;
+
+public class ChickenDumpling extends Dumpling{
+
+	public ChickenDumpling(String materials, String name) {
+		super(materials, name);
+		// TODO Auto-generated constructor stub
+	}
+
+	
+
+}

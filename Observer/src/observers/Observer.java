@@ -1,0 +1,6 @@
+package observers;
+
+public interface Observer {
+	void update(Float temperature, Float humidity, Float pressure);
+
+}

@@ -1,0 +1,23 @@
+package factories;
+
+import java.util.Random;
+
+import models.BeefDumpling;
+import models.Dumpling;
+
+public class BeefDumplingStore extends DumplingStore{
+
+	public BeefDumplingStore() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	protected Dumpling createDumpling() {
+		String materials = "Beef";
+		String name = "Beef dumpling";
+		Random rand = new Random();
+		Integer price = rand.nextInt(2) == 0? 20000 : 40000 ;
+		return new BeefDumpling(materials, name, price);
+	}
+
+}

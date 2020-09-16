@@ -1,0 +1,9 @@
+package components;
+
+public class Speaker {
+
+	public Speaker() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

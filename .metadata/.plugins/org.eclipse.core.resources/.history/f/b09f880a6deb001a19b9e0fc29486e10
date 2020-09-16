@@ -1,0 +1,19 @@
+package facade;
+
+import components.Light;
+import components.Speaker;
+import components.Tv;
+
+public class HomeFacade {
+	public Light light;
+	public Speaker speaker;
+	public Tv tv;
+	public HomeFacade(Light light, Speaker speaker, Tv tv) {
+		super();
+		this.light = light;
+		this.speaker = speaker;
+		this.tv = tv;
+	}
+	
+
+}

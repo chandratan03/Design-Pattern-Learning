@@ -1,0 +1,27 @@
+package model;
+
+import java.util.ArrayList;
+
+import iterator.Iterator;
+import iterator.UsersIterator;
+
+public class UserList{
+	private ArrayList<String> names;
+	
+	public UserList() {
+		names = new ArrayList<>();
+	
+		names.add("haha");
+		names.add("hehehe");
+		names.add("husususu");
+		names.add("hesesese");
+		
+	}
+	public Iterator getIterator() {
+		return new UsersIterator(names);
+	}
+	
+	
+	
+
+}

@@ -1,0 +1,23 @@
+package factories;
+
+import models.Dumpling;
+
+import java.util.Random;
+
+import models.BeefDumpling;
+import models.ChickenDumpling;
+
+public class ChickenDumplingStore extends DumplingStore{
+
+	public ChickenDumplingStore() {
+	}
+
+	@Override
+	protected Dumpling createDumpling() {		
+		String materials = "Chicken meat";
+		String name = "Chicken dumpling";
+		Integer price = new Random().nextInt(1);
+		return new ChickenDumpling(materials, name);
+	}
+
+}

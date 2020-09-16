@@ -1,0 +1,9 @@
+package states;
+
+public abstract class State {
+
+	public State() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,9 @@
+package states;
+
+public class GumballMachine {
+
+	public GumballMachine() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

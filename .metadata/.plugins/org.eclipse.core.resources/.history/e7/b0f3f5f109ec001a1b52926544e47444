@@ -1,0 +1,26 @@
+package factories;
+
+import models.Dumpling;
+import models.JakartaBeefDumpling;
+import models.JakartaChickenDumpling;
+
+public class JakartaDumplingStore extends DumplingFactory{
+
+	public JakartaDumplingStore() {
+		
+	}
+
+	@Override
+	protected Dumpling createDumpling(String name) {
+		Dumpling dumpling = null;
+		if(name.equals("Beef")) {
+			dumpling =  new JakartaBeefDumpling();
+		}else if(name.equals("Chicken")) {
+			dumpling = new JakartaChickenDumpling();
+		}
+		
+		
+		return dumpling;
+	}
+
+}

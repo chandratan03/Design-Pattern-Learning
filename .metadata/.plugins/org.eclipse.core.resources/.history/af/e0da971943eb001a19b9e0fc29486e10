@@ -1,0 +1,33 @@
+package main;
+
+import adapter.CatAdapter;
+import models.Cat;
+import models.CatFoo;
+import models.Dog;
+import models.DogFoo;
+
+public class Main {
+
+	public Main() {
+		Cat cat = new CatFoo();
+		
+		// We want to convert that the cat could dogScream(require only dog can use) ,
+		// without changing the code,
+		// we create an adapter for the cat
+		
+		Dog catAdapter = new CatAdapter(cat);
+		
+		dogScream(catAdapter);
+	}
+	
+	// this is the private method that require only dog can use
+	private void dogScream(Dog dog) {
+		dog.scream();
+	}
+	
+	
+	public static void main(String[] args) {
+		new Main();
+	}
+
+}

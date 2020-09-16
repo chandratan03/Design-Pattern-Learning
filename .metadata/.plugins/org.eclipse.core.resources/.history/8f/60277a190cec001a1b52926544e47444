@@ -1,0 +1,24 @@
+package factories;
+
+import models.BogorBeefDumpling;
+import models.BogorChickenDumpling;
+import models.Dumpling;
+
+public class BogorDumplingStore extends DumplingFactory{
+
+	public BogorDumplingStore() {
+		
+	}
+
+	@Override
+	protected Dumpling createDumpling(String name) {
+		Dumpling dumpling = null;
+		if(name.equals("Beef")) {
+			dumpling = new BogorBeefDumpling();
+		}else if(name.equals("Chicken")) {
+			dumpling = new BogorChickenDumpling();
+		}
+		return dumpling;
+	}
+
+}

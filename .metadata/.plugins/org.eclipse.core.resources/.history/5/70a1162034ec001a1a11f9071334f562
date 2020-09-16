@@ -1,0 +1,30 @@
+package algorithms;
+
+import java.util.Scanner;
+
+public class CoffeBeverageWithHook extends CaffeineBeverage{
+
+	public CoffeBeverageWithHook() {
+		
+	}
+
+	@Override
+	public void brew() {
+		System.out.println("Brewing coffee");
+	}
+
+	@Override
+	public void addCondiments() {
+		System.out.println("Add Milk");
+	}
+	
+	// this the hooks we override
+	@Override
+	public boolean customerWantsCondiment() {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Add condiment Yes or no [Y/N]");
+		boolean want = scan.nextLine();
+		
+	}
+
+}

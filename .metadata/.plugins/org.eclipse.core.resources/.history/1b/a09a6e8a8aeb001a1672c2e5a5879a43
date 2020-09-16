@@ -1,0 +1,9 @@
+package models;
+
+public class JakartaChickenDumpling {
+
+	public JakartaChickenDumpling() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

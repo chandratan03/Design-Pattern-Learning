@@ -1,0 +1,19 @@
+package adapter;
+
+import models.Cat;
+import models.Dog;
+
+public class CatAdapter implements Dog{
+	Cat cat;
+	public CatAdapter(Cat cat) {
+		this.cat = cat;
+	}
+
+	@Override
+	public void scream() {
+		// let's say that the dog scream == (5 times of cat meow)
+		for(int i=0; i<5; i++)
+			cat.meow();
+	}
+
+}

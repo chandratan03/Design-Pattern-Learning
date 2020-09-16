@@ -1,0 +1,12 @@
+package factories;
+
+import models.Dumpling;
+
+
+public interface DumplingStore{
+
+	
+	
+abstract Dumpling createDumpling() ;
+
+}

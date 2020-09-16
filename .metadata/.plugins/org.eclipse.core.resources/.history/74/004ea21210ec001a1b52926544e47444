@@ -1,0 +1,16 @@
+package main;
+
+import factories.BogorDumplingStore;
+import factories.DumplingStore;
+import factories.DumplingStore;
+import models.Dumpling;
+
+public class Main {
+
+	public Main() {
+		
+	}
+	public static void main(String[] args) {
+		new Main();
+	}
+}

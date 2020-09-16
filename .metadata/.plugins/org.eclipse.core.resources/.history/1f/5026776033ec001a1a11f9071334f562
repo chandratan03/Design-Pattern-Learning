@@ -1,0 +1,26 @@
+package algorithms;
+
+public abstract class CaffeineBeverage {
+
+	
+	public final void prepareBeverage() {
+		boil();
+		brew();
+		pourInCup();
+		if(customerWantsCondiment()) {
+			addCondiments();
+		}
+	}
+
+	public void boil() {
+		System.out.println("Boiling Water");
+	}
+	public void brew() {
+		System.out.println("Brew the beverage");
+	}
+	
+	public void pourInCup() {
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package adapter;
+
+public class CatAdapter {
+
+	public CatAdapter() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,15 @@
+package algorithms;
+
+public abstract class CaffeineBeverage {
+
+	
+	public final void prepareBeverage() {
+		boil();
+		brew();
+		pourInCup();
+		if(customerWantsCondiment()) {
+			
+		}
+	}
+
+}

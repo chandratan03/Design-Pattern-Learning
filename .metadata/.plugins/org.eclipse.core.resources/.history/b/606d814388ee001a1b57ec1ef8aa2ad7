@@ -1,0 +1,9 @@
+package states;
+
+public class NoQuarterState {
+
+	public NoQuarterState() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

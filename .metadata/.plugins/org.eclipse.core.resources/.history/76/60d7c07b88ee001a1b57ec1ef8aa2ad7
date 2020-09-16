@@ -1,0 +1,9 @@
+package states;
+
+public class SoldState {
+
+	public SoldState() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

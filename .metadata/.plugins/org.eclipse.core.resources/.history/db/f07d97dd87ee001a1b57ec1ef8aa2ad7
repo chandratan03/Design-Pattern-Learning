@@ -1,0 +1,9 @@
+package states;
+
+public interface State {
+
+	public State() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

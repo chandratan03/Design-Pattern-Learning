@@ -1,0 +1,21 @@
+package adapter;
+
+import models.Cat;
+import models.Dog;
+
+// Adapter is just like a middleman
+public class CatAdapter implements Dog{
+	Cat cat;
+	public CatAdapter(Cat cat) {
+		this.cat = cat;
+	}
+
+	@Override
+	public void scream() {
+		// let's say, the dog scream is equal to 5 times of cat meow
+		// dog_scream == 5x_cat_meow
+		for(int i=0; i<5; i++)
+			cat.meow();
+	}
+
+}

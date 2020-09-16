@@ -1,0 +1,9 @@
+package models;
+
+public class Jakarta4Dumpling {
+
+	public Jakarta4Dumpling() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

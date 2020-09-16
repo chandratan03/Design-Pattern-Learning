@@ -1,0 +1,12 @@
+package models;
+
+public class ChickenDumpling extends Dumpling{
+
+	public ChickenDumpling(String materials, String name, Double price) {
+		super(materials, name, price);
+	}
+
+
+	
+
+}

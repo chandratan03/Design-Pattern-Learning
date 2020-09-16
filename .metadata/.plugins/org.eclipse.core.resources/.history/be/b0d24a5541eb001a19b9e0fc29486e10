@@ -1,0 +1,12 @@
+package models;
+
+public class CatFoo implements Cat{
+
+
+	@Override
+	public void meow() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

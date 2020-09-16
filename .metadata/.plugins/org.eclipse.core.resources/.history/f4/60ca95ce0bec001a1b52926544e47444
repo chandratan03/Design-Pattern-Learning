@@ -1,0 +1,17 @@
+package factories;
+
+import models.Dumpling;
+
+public class BogorDumplingStore extends DumplingFactory{
+
+	public BogorDumplingStore() {
+		
+	}
+
+	@Override
+	protected Dumpling createDumpling(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

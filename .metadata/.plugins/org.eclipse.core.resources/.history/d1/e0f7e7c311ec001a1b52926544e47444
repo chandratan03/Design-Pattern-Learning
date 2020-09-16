@@ -1,0 +1,21 @@
+package main;
+
+import factories.BeefDumplingStore;
+import factories.ChickenDumplingStore;
+import factories.DumplingStore;
+
+public class Main {
+
+	public Main() {
+		DumplingStore beefStore = new BeefDumplingStore();
+		beefStore.orderDumpling();
+		
+		DumplingStore chickenStore = new ChickenDumplingStore();
+		chickenStore.orderDumpling();
+		
+		
+	}
+	public static void main(String[] args) {
+		new Main();
+	}
+}

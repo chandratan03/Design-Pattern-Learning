@@ -1,0 +1,9 @@
+package client;
+
+public class facade {
+
+	public facade() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

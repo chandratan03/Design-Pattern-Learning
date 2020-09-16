@@ -1,0 +1,8 @@
+package model;
+
+import iterator.Iterator;
+
+public interface ListMenu {
+	// The iterator is better to be typeCast
+	public abstract Iterator getIterator();
+}

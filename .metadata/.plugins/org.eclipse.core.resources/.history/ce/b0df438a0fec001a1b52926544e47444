@@ -1,0 +1,16 @@
+package factories;
+
+import models.Dumpling;
+import models.JakartaBeefDumpling;
+import models.JakartaChickenDumpling;
+
+public abstract class DumplingStore{
+
+	public DumplingStore() {
+		
+	}
+
+	@Override
+	protected abstract Dumpling createDumpling(String name) ;
+
+}
